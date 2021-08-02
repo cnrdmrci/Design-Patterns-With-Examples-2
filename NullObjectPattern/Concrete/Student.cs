@@ -6,7 +6,7 @@ namespace NullObjectPattern
         public override string Name { get; set; }
         public override string GetUserInfo()
         {
-            return Id + ", " + Name; 
+            return Id + " - " + Name; 
         }
     }
 }
