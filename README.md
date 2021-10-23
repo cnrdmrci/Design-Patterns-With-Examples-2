@@ -2,6 +2,7 @@
 
 - [Null Object Pattern](#null-object-pattern)
 - [Special Case Pattern](#special-case-pattern)
+- [Specification Pattern](#specification-pattern)
 
 ## &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a name="null-object-pattern">Null Object Pattern</a>
 
@@ -23,3 +24,10 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Kod üzerinde gösterilen örnekte bir kullanıcı bilgisinin alınması örneklendirilmiştir. Kullanıcı bilgisinin başarılı bir şekilde alınamayarak null gelmesi sonucu kullanıcı bulunamadı bilgisini dönecek sınıf verilmiştir.
 
 ![image](https://user-images.githubusercontent.com/16361055/127924193-7195240b-02b8-48c2-a81b-6113a13b3036.png)
+
+
+## &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a name="specification-pattern">Specification Pattern</a>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Uygulama içerisindeki kontrollerin düzenli olması, bağımlılıkların azaltılması ve gerektiğinde "and, or vb." gibi ifadelerle kombine edilebilmesi nedeniyle kullanılan kullanışlı bir tasarım desenidir. Ayrıca linq sorguları içerisine kolayca entegrasyonu sayesinde, hem entityframework ile uyumlu çalışmaktadır, hem de uygulama içerisindeki filtrelemelerde kolayca kullanılabilmektedir.
+
+![image](https://user-images.githubusercontent.com/16361055/138568478-5251036d-a279-4823-905c-850c48f5cad3.png)
