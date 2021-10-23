@@ -1,5 +1,6 @@
 ﻿using NullObjectPattern;
 using SpecialCasePattern;
+using SpecificationPattern;
 
 namespace DesignPatterns2
 {
@@ -9,6 +10,7 @@ namespace DesignPatterns2
         {
             UsageOfNullObjectPattern.Run();
             UsageOfSpecialCasePattern.Run();
+            UsageOfSpecificationPattern.Run();
         }
     }
 }
